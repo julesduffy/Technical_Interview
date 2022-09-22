@@ -1,0 +1,231 @@
+--Step 1 Create table
+
+create table Books (Author_ID Int, Title Varchar(50), Revision Int)
+
+ 
+
+--Step 2 Insert 100 records
+
+insert into Books (Author_ID, Title, Revision) values ( 123, 'Title A', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 432, 'Title B', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 5243, 'Title C', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 532, 'Title D', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1623, 'Title E', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 693, 'Title F', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 823, 'Title G', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 542, 'Title H', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 928, 'Title I', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 18476, 'Title J', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 4328, 'Title K', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 58901, 'Title L', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 53217, 'Title M', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 54031, 'Title N', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 12389, 'Title O', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 23489, 'Title P', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 5413, 'Title Q', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 6123, 'Title R', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8433, 'Title S', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7239, 'Title T', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8293, 'Title U', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 9208, 'Title V', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 432, 'Title W', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7234, 'Title X', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 72839, 'Title Y', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 2933, 'Title Z', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 2222, 'Title AA', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 4312, 'Title BB', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 4334, 'Title CC', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 5223, 'Title DD', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 62334, 'Title EE', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8327, 'Title FF', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 641, 'Title GG', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 17431, 'Title HH', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 45316, 'Title II', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8923, 'Title JJ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 62738, 'Title KK', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 93128, 'Title LL', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 456, 'Title MM', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 789, 'Title NN', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 901, 'Title OO', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8239, 'Title PP', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 124, 'Title QQ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 125, 'Title RR', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 126, 'Title SS', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 127, 'Title TT', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 128, 'Title UU', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 129, 'Title VV', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 120, 'Title WW', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 457, 'Title XX', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 458, 'Title YY', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 459, 'Title ZZ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 450, 'Title AAA', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 324, 'Title BBB', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8217, 'Title CCC', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 9218, 'Title DDD', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1213, 'Title EEE', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1123, 'Title FFF', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1124, 'Title GGG', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1145, 'Title HHH', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1134, 'Title III', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 4235, 'Title JJJ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8293, 'Title KKK', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7282, 'Title LLL', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7762, 'Title MMM', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7766, 'Title NNN', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 63829, 'Title OOO', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 9823, 'Title PPP', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1692, 'Title QQQ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 68129, 'Title RRR', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 53012, 'Title SSS', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 36289, 'Title TTT', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 95728, 'Title UUU', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 53278, 'Title VVV', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 67778, 'Title WWW', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 43256, 'Title XXX', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 16431, 'Title YYY', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 6432, 'Title ZZZ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7524, 'Title AAAA', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8243, 'Title BBBB', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 5522, 'Title CCCC', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 5555, 'Title DDDD', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 4444, 'Title EEEE', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 3333, 'Title FFFF', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 2222, 'Title GGGG', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 1111, 'Title HHHH', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 0000, 'Title IIII', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 9999, 'Title JJJJ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 8888, 'Title KKKK', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 7777, 'Title LLLL', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 6666, 'Title MMMM', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 54326, 'Title NNNN', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 91298, 'Title OOOO', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 6194, 'Title PPPP', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 16279, 'Title QQQQ', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 23789, 'Title RRRR', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 34672, 'Title SSSS', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 33284, 'Title TTTT', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 4472, 'Title UUUU', 1)
+
+insert into Books (Author_ID, Title, Revision) values ( 100, 'Title VVVV', 1)
+
+ 
+
+--Step 3 copy data but insert revision 2
+
+insert into Books (Author_ID, Title, Revision)
+
+select Author_ID, Title, '2'
+
+from Books
+
+ 
+
+--Step 4 add constraint for unique records
+
+alter table books
+
+add constraint PK_Books unique (Author_ID, Title, Revision)
+
+ 
+
+--Step 5 Remove 2nd revision for odd numbered author_ID
+
+delete from books where revision = '2' and Author_ID % 2 <> 0
