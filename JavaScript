@@ -23,13 +23,21 @@ Library.push( new Book("Harry Potter and the Philosopher's Stone", "J. K. Rowlin
 Library.push( new Book("To Kill a Mockingbird", "Harper Lee", 281, 9780060935467) );
 
 
+
+//loop to read line
 for (var i in Library){
+    //loop to read position
     for (var j in Library[i]){
-        var newarr = Library[i][j].toString().replace(/[^0-9A-Z]+/gi,"").substr(0, 3);
-        console.log(newarr);
+        //set variable to pull first 3 alphanumeric characters from org array
+        var str = Library[i][j].toString().replace(/[^0-9A-Z]+/gi,"").substr(0, 3);
+        var barCode = [];
+        barCode.push(str);
+        console.log(barCode);
         //console.log(Library[i][j]);
     }
 }
+
+
 
 //const list = myArray.join(' - ');
 /*loop with i to read line
