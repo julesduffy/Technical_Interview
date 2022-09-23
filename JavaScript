@@ -49,7 +49,7 @@ var result = barCode
     var row = item;
     return row.join("-");
   }) 
-  .join("\n");
+
 
 //working through all this code
 //pull title from original array
