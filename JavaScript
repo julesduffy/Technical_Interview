@@ -54,8 +54,9 @@ var result = barCode
 //working through all this code
 //pull title from original array
 //concat title to result array
-//sort result array
 
+//sort result array
+result.sort();
 
 console.log(result);
 
