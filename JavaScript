@@ -22,30 +22,42 @@ Library.push( new Book('The Hobbit', 'J. R. R. Tolkien', 384, 9780544174221) );
 Library.push( new Book("Harry Potter and the Philosopher's Stone", "J. K. Rowling", 368, 9781408883808) );
 Library.push( new Book("To Kill a Mockingbird", "Harper Lee", 281, 9780060935467) );
 
-
+//create temp array
+var newarr = [];
 
 //loop to read line
 for (var i in Library){
     //loop to read position
     for (var j in Library[i]){
-        //set variable to pull first 3 alphanumeric characters from org array
+        //set variable to pull first 3 alphanumeric characters from orginal array
         var str = Library[i][j].toString().replace(/[^0-9A-Z]+/gi,"").substr(0, 3);
-        var barCode = [];
-        barCode.push(str);
-        console.log(barCode);
-        //console.log(Library[i][j]);
+        //push string into temp array
+        for(n = 0; n < 1; n++){
+            newarr.push(str);
+        }
+        
     }
 }
 
+//create 2d array from 1d array
+const barCode = [];
+while(newarr.length) barCode.push(newarr.splice(0,4));
+    
+//format 2d array into new array with (-) separator
+var result = barCode
+  .map((item) => {
+    var row = item;
+    return row.join("-");
+  }) 
+  .join("\n");
 
+//concatenate the title
 
-//const list = myArray.join(' - ');
+console.log(result);
+
 /*loop with i to read line
 another look j for position
 set variable to slice current line and element for first 3 chars
 push var to array
 sort array
 console out results*/
-
-
-
