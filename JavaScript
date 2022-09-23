@@ -22,23 +22,22 @@ Library.push( new Book('The Hobbit', 'J. R. R. Tolkien', 384, 9780544174221) );
 Library.push( new Book("Harry Potter and the Philosopher's Stone", "J. K. Rowling", 368, 9781408883808) );
 Library.push( new Book("To Kill a Mockingbird", "Harper Lee", 281, 9780060935467) );
 
-/*pseudocode
-Create function
-Pull from array[0] for AAA
-Pull from array[1] for BBB
-Pull from array[2] for CCC
-Pull from array[3] for DDD
-Concatenate string to create AAA-BBB-CCC-DDD
-Output data
-*/
 
-var str1 = Library[0].toString().replace(/[^0-9A-Z]+/gi,"");
-var str2 = Library[1].toString().replace(/[^0-9A-Z]+/gi,"");
-var str3 = Library[2].toString().replace(/[^0-9A-Z]+/gi,"");
-var str4 = Library[3]?.toString();
-var AAA = str1.substr(0, 3);
-var BBB = str2.substr(0, 3);
-var CCC = str3.substr(0, 3);
-var DDD = str4?.substr(0 ,3);
-const barcode = AAA.concat("-", BBB, "-", CCC, "-", str4);
-console.log(barcode);
+for (var i in Library){
+    for (var j in Library[i]){
+        var newarr = Library[i][j].toString().replace(/[^0-9A-Z]+/gi,"").substr(0, 3);
+        console.log(newarr);
+        //console.log(Library[i][j]);
+    }
+}
+
+//const list = myArray.join(' - ');
+/*loop with i to read line
+another look j for position
+set variable to slice current line and element for first 3 chars
+push var to array
+sort array
+console out results*/
+
+
+
